@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JoshVibes</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+<body>
+    <header class="header">
+        <a href="#home" class="logo">JoshVibes</a>
+        
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#photo">Photo</a>
+            <a href="#preference">Preference</a>
+            <a href="#contact">Contact</a>
+            <a href="#reviews">Reviews</a>
+        </nav>
+        
+        <button class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hi, It's Me</h3>
+            <h1>Joshua Virtudez</h1>
+            <h3>And I'm a <span class="text"></span></h3>
+            <p>I am a student and this is my first time how to create website using html, css and javascript.</p>
+            
+            <div class="home-sci">
+                <a href="https://www.facebook.com/joshua.virtudez.2025" style="--i:7"><i class="fa-brands fa-facebook fa-xl" style="color: #2a64c0;"></i></a>
+                <a href="https://www.tiktok.com/@joshuavirtudez?_t=ZS-8wW5R5a3n67&_r=1" style="--i:8"><i class="fa-brands fa-facebook-messenger" style="color: #2361cd;"></i></a>
+                <a href="https://m.me/joshua.virt" style="--i:9"><i class="fa-brands fa-tiktok" style="color: #245cbc;"></i></a>
+            </div>  
+            <a href="#about" class="btn-box">More About Me</a>                                        
+        </div>
+        <div class="home-img">
+            <img src="joshpic.jpg" alt="Profile Picture">       
+        </div>
+        <span class="home-imgHover"></span>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="joshpic.jpg" alt="About Image">
+        </div>
+        <div class="about-text">
+            <h2>About<span>Me</span></h2>
+            <h4>Firstime to Create Personal Website</h4>
+            <p>Hi everyone, Im Joshua Virtudez BSIS second year studied at JRMSU-K. I'm a student and this is my first time creating a website using HTML, CSS, and JavaScript.</p>
+            <a href="#services" class="btn-box">More About Me</a>                                                              
+        </div>
+    </section>
+
+    <!-- Services Section -->  
+                <section class="services" id="services">
+    <div class="container">
+        <h1 class="sub-title">My <span>Service</span></h1>
+        <div class="services-list">
+            <div>
+                <i class='bx bx-code-alt'></i>
+                <h2>UI/UX Designer</h2>
+                <p>.</p>
+                <a href="#" class="read">Learn More</a>
+            </div>
+            <div>
+                <i class='bx bx-crop'></i>
+                <h2>Web Development</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <a href="#" class="read">Learn More</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Photo Section -->
+    <section class="photo"section id="photo">
+        <div class="container">
+            <h1 class="sub-title"><span>Photo</span></h1>
+            <div class="photo-gallery">
+                <div class="photo-item"><img src="123.jpg" alt="Joshua Virtudez with friends"></div>
+                <div class="photo-item"><img src="1234.jpg" alt="My brother photo"></div>
+                <div class="photo-item hidden"><img src="12.jpg" alt="My brother photo"></div>
+                <div class="photo-item hidden"><img src="joshpic.jpg" alt="My Profile"></div>
+            </div>
+            <button class="btn-box" id="showMoreBtn">Show More</button>
+        </div>
+    </section>
+
+    <!-- Preference Section -->
+    <section class="preference" id="preference">
+        <div class="container">
+            <h1 class="sub-title"><span>Preference</span></h1>
+            <div class="preference-list">
+                <div class="preference-item">
+                    <h3>Sports</h3>
+                    <ul>
+                        <li>🏐 Volleyball</li>
+                        <li>🏀 Basketball</li>
+                        <li>🥋 Sepaktakraw</li>
+                    </ul>
+                </div>
+                <div class="preference-item">
+                    <h3>Hobbies</h3>
+                    <ul>
+                        <li>🎮 Mobile Legends</li>
+                        <li>🎤 Singing</li>
+                        <li>📖 Bible Reading</li>
+                        <li>BloodStrike</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h1 class="sub-title">Contact <span></span></h1>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>joshuavirtudez73@gmail.com</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <p>+63 9068691513</p>
+                    </div>
+                </div>
+             
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->     
+<section class="reviews" id="reviews">
+    <div class="container">
+        <h1 class="sub-title"><span>Reviews</span></h1>
+        
+        <div class="review-section">
+            <!-- Review Form -->
+            <div class="review-form">
+                <h3>Leave a Review</h3>
+                <div class="rating-container">
+                    <label for="rating">Rate:</label>
+                    <select id="rating">
+                        <option value="5">★★★★★</option>
+                        <option value="4">★★★★☆</option>
+                        <option value="3">★★★☆☆</option>
+                        <option value="2">★★☆☆☆</option>
+                        <option value="1">★☆☆☆☆</option>
+                    </select>
+                </div>
+                
+                <div class="message-container">
+                    <label for="message">Message:</label>
+                    <textarea id="message" rows="4"></textarea>
+                </div>
+                
+                <button class="send-btn">Send</button>
+            </div>
+
+            <!-- Reviews Container -->
+            <div class="reviews-container">
+                <div class="review-item">
+                    <div class="review-rating">★★★★★</div>
+                    <div class="review-message">Great website! Very informative.</div>
+                </div>
+                <div class="review-item">
+                    <div class="review-rating">★★★★☆</div>
+                    <div class="review-message">Nice design and layout.</div>
+                </div>
+                <div class="review-item">
+                    <div class="review-rating">★★★☆☆</div>
+                    <div class="review-message">Good content, but could use more images.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+            </div>
+        </div>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+</html>
